@@ -1,0 +1,12 @@
+body {
+  background: #22223B;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#clock {
+  color: #F2E9E4;
+  margin: 0, 20vh;
+  font-family: sans-serif;
+  font-size: 10vw;
+}
