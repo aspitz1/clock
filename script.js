@@ -32,6 +32,7 @@ const dayOfTheWeek = () => {
   let dayList = ['Sunday', 'Monday', 'Tuesday', 'Wednsday', 'Thursday', 'Friday', 'Saturday'];
   let smwtfs = `${dayList[day]}`
   document.getElementById('day').innerText = smwtfs;
+  setTimeout(clock, 1000);
 }
 
 // calender date
@@ -45,6 +46,7 @@ const calender = () => {
   day = (day < 10)? '0' + day : day;
   let todaysDate = `${month}/${day}/${year}`;
   document.getElementById('calender').innerText = todaysDate;
+  setTimeout(clock, 1000);
 }
 // run the functions
 clock();
